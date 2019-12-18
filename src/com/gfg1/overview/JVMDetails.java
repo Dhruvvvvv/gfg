@@ -1,4 +1,4 @@
-package com.gfg.java;
+package com.gfg1.overview;
 
 public class JVMDetails {
 
