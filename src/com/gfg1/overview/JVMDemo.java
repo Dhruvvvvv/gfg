@@ -8,7 +8,7 @@ public class JVMDemo {
 	// https://www.geeksforgeeks.org/java/
 	public static void main(String[] args) {
 		Object obj = new Object();
-		Class c = obj.getClass();
+		Class<?> c = obj.getClass();
 		System.out.println("Class name:: " + c.getName());
 		Method[] m = c.getMethods();
 		for (Method mm : m) {
