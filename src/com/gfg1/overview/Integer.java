@@ -15,5 +15,6 @@ public class Integer {
 
 		// printing instance variable
 		System.out.println(Integer.Integer);
+		System.out.println("Last line of the program.");
 	}
 }
